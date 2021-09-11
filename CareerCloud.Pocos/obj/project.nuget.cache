@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "MMhIxBfftg50JskaFAZmDGIMnZgHphv0pz4Ul8/IBLgG2agvbQuCCSSZ6x7jwL/Ykb/CKqrSHdSXmZJojU7WJQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project CareerCloud.EntityFrameworkDataAccess is not compatible with netcoreapp3.0 (.NETCoreApp,Version=v3.0). Project CareerCloud.EntityFrameworkDataAccess supports: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "CareerCloud.EntityFrameworkDataAccess",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.0"
+      ]
+    }
+  ]
+}
