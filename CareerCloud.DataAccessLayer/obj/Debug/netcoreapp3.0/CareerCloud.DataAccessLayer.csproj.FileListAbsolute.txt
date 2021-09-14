@@ -7,3 +7,4 @@ C:\Users\JAC\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\netc
 C:\Users\JAC\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\netcoreapp3.0\CareerCloud.DataAccessLayer.dll
 C:\Users\JAC\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\netcoreapp3.0\CareerCloud.DataAccessLayer.pdb
 C:\Users\JAC\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\netcoreapp3.0\CareerCloud.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JAC\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\netcoreapp3.0\CareerCloud.DataAccessLayer.csproj.AssemblyReference.cache

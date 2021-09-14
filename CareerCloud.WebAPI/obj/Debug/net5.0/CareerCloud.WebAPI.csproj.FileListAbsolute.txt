@@ -1,0 +1,8 @@
+C:\Users\JAC\source\repos\CareerCloud\CareerCloud.WebAPI\obj\Debug\net5.0\CareerCloud.WebAPI.csproj.AssemblyReference.cache
+C:\Users\JAC\source\repos\CareerCloud\CareerCloud.WebAPI\obj\Debug\net5.0\CareerCloud.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JAC\source\repos\CareerCloud\CareerCloud.WebAPI\obj\Debug\net5.0\CareerCloud.WebAPI.AssemblyInfoInputs.cache
+C:\Users\JAC\source\repos\CareerCloud\CareerCloud.WebAPI\obj\Debug\net5.0\CareerCloud.WebAPI.AssemblyInfo.cs
+C:\Users\JAC\source\repos\CareerCloud\CareerCloud.WebAPI\obj\Debug\net5.0\CareerCloud.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\JAC\source\repos\CareerCloud\CareerCloud.WebAPI\obj\Debug\net5.0\CareerCloud.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\JAC\source\repos\CareerCloud\CareerCloud.WebAPI\obj\Debug\net5.0\CareerCloud.WebAPI.RazorAssemblyInfo.cache
+C:\Users\JAC\source\repos\CareerCloud\CareerCloud.WebAPI\obj\Debug\net5.0\CareerCloud.WebAPI.RazorAssemblyInfo.cs
