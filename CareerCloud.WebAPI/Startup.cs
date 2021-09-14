@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.OpenApi.Models;
 
 namespace CareerCloud.WebAPI
 {
@@ -24,6 +25,14 @@ namespace CareerCloud.WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            services.AddMvc();
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+            });
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -33,6 +42,7 @@ namespace CareerCloud.WebAPI
             {
                 app.UseDeveloperExceptionPage();
             }
+
             else
             {
                 app.UseExceptionHandler("/Error");
@@ -50,7 +60,8 @@ namespace CareerCloud.WebAPI
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-            });
+            }
+            );
         }
     }
 }
