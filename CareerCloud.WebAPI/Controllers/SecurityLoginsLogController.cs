@@ -79,8 +79,5 @@ namespace CareerCloud.WebAPI.Controllers
             _logic.Delete(secLoginlogPocos);
             return Ok();
         }
-
-
-
     }
 }

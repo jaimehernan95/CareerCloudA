@@ -81,7 +81,5 @@ namespace CareerCloud.WebAPI.Controllers
             return Ok();
 
         }
-
-
     }
 }
