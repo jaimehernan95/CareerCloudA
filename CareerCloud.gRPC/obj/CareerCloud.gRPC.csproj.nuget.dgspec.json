@@ -1,0 +1,524 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.gRPC\\CareerCloud.gRPC.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.ADODataAccessLayer\\CareerCloud.ADODataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.ADODataAccessLayer\\CareerCloud.ADODataAccessLayer.csproj",
+        "projectName": "CareerCloud.ADODataAccessLayer",
+        "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.ADODataAccessLayer\\CareerCloud.ADODataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\JAC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.ADODataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj"
+              },
+              "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj": {
+                "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Faker.Data.Core": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.BusinessLogicLayer\\CareerCloud.BusinessLogicLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.BusinessLogicLayer\\CareerCloud.BusinessLogicLayer.csproj",
+        "projectName": "CareerCloud.BusinessLogicLayer",
+        "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.BusinessLogicLayer\\CareerCloud.BusinessLogicLayer.csproj",
+        "packagesPath": "C:\\Users\\JAC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.BusinessLogicLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.ADODataAccessLayer\\CareerCloud.ADODataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.ADODataAccessLayer\\CareerCloud.ADODataAccessLayer.csproj"
+              },
+              "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj"
+              },
+              "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj": {
+                "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj",
+        "projectName": "CareerCloud.DataAccessLayer",
+        "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\JAC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Faker.Data.Core": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.EntityFrameworkDataAccess\\CareerCloud.EntityFrameworkDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.EntityFrameworkDataAccess\\CareerCloud.EntityFrameworkDataAccess.csproj",
+        "projectName": "CareerCloud.EntityFrameworkDataAccess",
+        "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.EntityFrameworkDataAccess\\CareerCloud.EntityFrameworkDataAccess.csproj",
+        "packagesPath": "C:\\Users\\JAC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.EntityFrameworkDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj"
+              },
+              "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj": {
+                "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.gRPC\\CareerCloud.gRPC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.gRPC\\CareerCloud.gRPC.csproj",
+        "projectName": "CareerCloud.gRPC",
+        "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.gRPC\\CareerCloud.gRPC.csproj",
+        "packagesPath": "C:\\Users\\JAC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.gRPC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.BusinessLogicLayer\\CareerCloud.BusinessLogicLayer.csproj": {
+                "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.BusinessLogicLayer\\CareerCloud.BusinessLogicLayer.csproj"
+              },
+              "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.DataAccessLayer\\CareerCloud.DataAccessLayer.csproj"
+              },
+              "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.EntityFrameworkDataAccess\\CareerCloud.EntityFrameworkDataAccess.csproj": {
+                "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.EntityFrameworkDataAccess\\CareerCloud.EntityFrameworkDataAccess.csproj"
+              },
+              "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj": {
+                "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.39.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.41.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj",
+        "projectName": "CareerCloud.Pocos",
+        "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj",
+        "packagesPath": "C:\\Users\\JAC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.Pocos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.EntityFrameworkDataAccess\\CareerCloud.EntityFrameworkDataAccess.csproj": {
+                "projectPath": "C:\\Users\\JAC\\source\\repos\\CareerCloud\\CareerCloud.EntityFrameworkDataAccess\\CareerCloud.EntityFrameworkDataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Faker.Data.Core": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

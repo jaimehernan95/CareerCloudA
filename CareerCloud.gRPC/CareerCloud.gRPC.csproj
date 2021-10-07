@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Protos\ApplicantEducation.proto" />
+		<None Remove="Protos\ApplicantJobApplication.proto" />
+		<None Remove="Protos\ApplicantResume.proto" />
+		<None Remove="Protos\ApplicantSkill.proto" />
+		<None Remove="Protos\ApplicantWorkHistory.proto" />
+		<None Remove="Protos\CompanyDescription.proto" />
+		<None Remove="Protos\CompanyJob.proto" />
+		<None Remove="Protos\CompanyJobDescription.proto" />
+		<None Remove="Protos\CompanyJobEducation.proto" />
+		<None Remove="Protos\CompanyJobSkill.proto" />
+		<None Remove="Protos\CompanyLocation.proto" />
+		<None Remove="Protos\CompanyProfile.proto" />
+		<None Remove="Protos\SecurityLogin.proto" />
+		<None Remove="Protos\SecurityLoginsLog.proto" />
+		<None Remove="Protos\SecurityLoginsRole.proto" />
+		<None Remove="Protos\SecurityRole.proto" />
+		<None Remove="Protos\SystemCountryCode.proto" />
+		<None Remove="Protos\SystemLanguageCode.proto" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Protobuf Include="Protos\ApplicantEducation.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\ApplicantJobApplication.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\ApplicantResume.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\ApplicantSkill.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\ApplicantWorkHistory.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\CompanyDescription.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\CompanyJob.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\CompanyJobDescription.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\CompanyJobEducation.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\CompanyJobSkill.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\CompanyLocation.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\CompanyProfile.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\SecurityLogin.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\SecurityLoginsLog.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\SecurityLoginsRole.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\SecurityRole.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\SystemCountryCode.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\SystemLanguageCode.proto" GrpcServices="Server" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<Protobuf Include="Protos\ApplicantEducation.proto" GrpcServices="Server" />
+		<Protobuf Include="Protos\greet.proto" GrpcServices="Server" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Grpc.AspNetCore" Version="2.39.0" />
+		<PackageReference Include="Grpc.Tools" Version="2.41.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\CareerCloud.BusinessLogicLayer\CareerCloud.BusinessLogicLayer.csproj" />
+		<ProjectReference Include="..\CareerCloud.DataAccessLayer\CareerCloud.DataAccessLayer.csproj" />
+		<ProjectReference Include="..\CareerCloud.EntityFrameworkDataAccess\CareerCloud.EntityFrameworkDataAccess.csproj" />
+		<ProjectReference Include="..\CareerCloud.Pocos\CareerCloud.Pocos.csproj" />
+	</ItemGroup>
+
+</Project>

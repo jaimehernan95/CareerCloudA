@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+
+
+option csharp_namespace = "CareerCloud.gRPC.Protos";
+package CareerCloud.gRPC;
+
+service SecurityLoginsRole {
+ rpc ReadSecurityLoginsRole(IdRequestLoginsRole) returns (SecurityLoginsRolePayLoad);
+ rpc CreateSecurityLoginsRole(SecurityLoginsRolePayLoad) returns (google.protobuf.Empty);
+ rpc UpdateSecurityLoginsRole(SecurityLoginsRolePayLoad) returns (google.protobuf.Empty);
+ rpc DeleteSecurityLoginsRole(SecurityLoginsRolePayLoad) returns (google.protobuf.Empty);
+}
+
+message IdRequestLoginsRole {
+
+     string Id = 1;
+}
+
+message SecurityLoginsRolePayLoad{
+     string Id = 1;
+     string Login = 2;
+     string Role = 3;  
+}
